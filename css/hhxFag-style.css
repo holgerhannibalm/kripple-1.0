@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding 0;
+}
+
+body {
+  font-family: Georgia, serif;
+}
+
+html {
+  background: url("images/hhxFag-Homescreen.jpg"); no-repeat center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+hr {
+  color: #0047AB;
+}
+
+.hhx {
+  color: #0047AB;
+}
+
+#header {
+  font-size: 150%;
+  position: relative;
+  border: none;
+  text-align: center;
+  left: 810px;
+  top: 150px;
+  width: 30vw;
+}
+
+/* ------------------------------- */
+
+.tilbage {
+  margin: 15px;
+  position: fixed;
+}
+
+.container {
+  text-align: center;
+  margin-top: 180px;
+  position: relative;
+  left: 590px;
+  width: 60vw;
+}
+
+.container1 {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  left: 590px;
+  width: 60vw;
+}
+
+.container2 {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  left: 590px;
+  width: 60vw;
+}
+
+.btn {
+  border: 1px solid #0047AB;
+  background: none;
+  padding: 15px 32px;
+  cursor: pointer;
+  margin: 2px;
+  width: 180px;
+  transition: 0.35s;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn1 {
+  color: #ececec;
+  text-align: center;
+}
+
+.btn1:hover {
+  color: #000000;
+  font-weight: 900;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 0%;
+  width: 180px;
+  background: #0047AB;
+  z-index: -1;
+  transition: 0.35s;
+  text-align: center;
+}
+
+.btn1:before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+  height: 180%;
+}
+
+.btn:hover::before {
+  height: 0%;
+}
+
+/* ------------------------------- */
